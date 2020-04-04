@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgba(240, 2, 2, 0.8),rgba(4, 0, 255, 0.4));
+}
+
+.navbar-menu {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: azure;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.nav-icon li {
+    display: inline-block;
+}
+
+.nav-icon li i:hover {
+    color: #F2AC32;
+}
+
+.facebook {
+    font-size: 30px;
+}
+
+.youtube {
+    font-size: 30px;
+}
